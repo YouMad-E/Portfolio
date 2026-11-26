@@ -12,8 +12,6 @@ Université de Lorraine
 
 Étudiant en M2 IA²VR (Intelligence Artificielle, Vision et Robotique) à l'Université de Lorraine, je conçois des systèmes intelligents qui perçoivent, décident et agissent dans le monde physique. J'applique l'apprentissage profond et la modélisation statistique à la sécurité réseau, au traitement d'images et à la commande robotique.
 
-Je cherche un **stage orienté recherche** en IA appliquée à la robotique ou au traitement d'image, de préférence en laboratoire.
-
 ## Projets
 
 | Projet | Technologies | Description |
@@ -47,5 +45,5 @@ Plus de détails sur mon [portfolio](https://youssefmadaneportfolio.netlify.app/
 
 ## 🇬🇧 In short
 
-Master's student (M2) in Artificial Intelligence, Computer Vision and Robotics at the University of Lorraine, looking for a research-oriented internship in AI applied to robotics or image processing, ideally in a lab.
+Master's student (M2) in Artificial Intelligence, Computer Vision and Robotics at the University of Lorraine.
 See my projects and background on my [portfolio](https://youssefmadaneportfolio.netlify.app/).
