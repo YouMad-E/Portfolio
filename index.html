@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Youssef Madane — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio de Youssef Madane, étudiant en Master Informatique (intelligence artificielle, vision et robotique) à l’Université de Lorraine."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='4' y='3' width='16' height='18' rx='2' fill='none' stroke='%23d84315' stroke-width='2'/%3E%3Cpath d='M8 8h8M8 12h8M8 16h5' stroke='%23d84315' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Applique le thème et la langue avant l'affichage (évite le flash) -->
+    <script>
+      (function () {
+        var d = document.documentElement, t = null, l = null;
+        try { t = localStorage.getItem("theme"); l = localStorage.getItem("lang"); } catch (e) {}
+        if (t !== "dark" && t !== "light")
+          t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        if (l !== "fr" && l !== "en")
+          l = (navigator.language || "fr").slice(0, 2) === "en" ? "en" : "fr";
+        d.dataset.theme = t;
+        d.lang = l;
+      })();
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip" href="#nb" data-i18n="skip">Aller au contenu</a>
+
+    <header class="bar">
+      <div class="bar-top">
+        <a class="brand" href="#accueil">
+          <svg class="logo" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+            <rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>portfolio<span class="ext">.ipynb</span></span>
+        </a>
+        <div class="kernel" id="kernel" role="status">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Python 3</span>
+          <span id="kstate"></span>
+        </div>
+      </div>
+
+      <div class="bar-tools">
+        <nav class="menu" aria-label="Sections">
+          <a href="#accueil" data-target="accueil" data-i18n="nav.home">Accueil</a>
+          <a href="#formation" data-target="formation" data-i18n="nav.edu">Formation</a>
+          <a href="#competences" data-target="competences" data-i18n="nav.skills">Compétences</a>
+          <a href="#projets" data-target="projets" data-i18n="nav.projects">Projets</a>
+          <a href="#contact" data-target="contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="tools">
+          <button type="button" class="tb" id="runAll">
+            <span aria-hidden="true">▶▶</span><span class="lbl" data-i18n="runAll">Tout exécuter</span>
+          </button>
+          <button type="button" class="tb" id="restart">
+            <span aria-hidden="true">↻</span><span class="lbl" data-i18n="restart">Redémarrer le noyau</span>
+          </button>
+          <button type="button" class="tb" id="lang">EN</button>
+          <button type="button" class="tb" id="theme"><span id="themeIcon" aria-hidden="true">☾</span></button>
+          <button type="button" class="tb help-btn" id="helpBtn" data-i18n-label="help">?</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="nb" class="nb" tabindex="-1">
+      <noscript>
+        <p>
+          Youssef Madane — Étudiant en Master Informatique (IA, vision et robotique), Université de Lorraine.
+          Ce portfolio nécessite JavaScript. GitHub :
+          <a href="https://github.com/YouMad-E">github.com/YouMad-E</a>
+        </p>
+      </noscript>
+    </main>
+
+    <footer class="status">
+      <span id="stMode"></span>
+      <span id="stCell"></span>
+      <span class="st-name">Youssef Madane · <span id="year"></span></span>
+    </footer>
+
+    <dialog id="help" aria-labelledby="helpTitle">
+      <h2 id="helpTitle"></h2>
+      <dl id="helpList"></dl>
+      <form method="dialog"><button class="tb" data-i18n="close">Fermer</button></form>
+    </dialog>
+
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
