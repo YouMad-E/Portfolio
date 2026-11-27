@@ -28,9 +28,9 @@ Plus de détails sur mon [portfolio](https://youssefmadaneportfolio.netlify.app/
 - **IA :** Deep Learning (CNN, Transformers), apprentissage par renforcement, modélisation probabiliste, RAG
 - **Vision :** vision par ordinateur, réalité augmentée, réalité virtuelle
 - **Robotique :** planification de trajectoires, commande, temps réel
-- **Langages :** C/C++, Python, PyTorch, ROS2, Java, JavaScript, eBPF, Assembleur, Visual Basic, Prolog
+- **Langages :** C/C++, Python, Java, JavaScript, Assembleur, Visual Basic, Prolog
 - **Bases de données :** MySQL, MariaDB, MongoDB
-- **Outils :** Git, Linux, Ubuntu, Eclipse, FileZilla, CodeIgniter, Make
+- **Outils et frameworks :** PyTorch, ROS2, eBPF, Git, Linux, Ubuntu, Eclipse, FileZilla, CodeIgniter, Make
 
 ## Formation
 

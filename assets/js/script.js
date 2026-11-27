@@ -127,7 +127,7 @@ const PROFILE = {
       id: "langages",
       color: "#8a5cf0",
       name: { fr: "Langages de programmation", en: "Programming languages" },
-      items: ["C/C++", "Python", "PyTorch", "ROS2", "Assembleur", "Java", "JavaScript", "eBPF", "Visual Basic", "Prolog"],
+      items: ["C/C++", "Python", "Java", "JavaScript", "Assembleur", "Visual Basic", "Prolog"],
     },
     {
       id: "bdd",
@@ -139,7 +139,7 @@ const PROFILE = {
       id: "outils",
       color: "#d6336c",
       name: { fr: "Outils et frameworks", en: "Tools & frameworks" },
-      items: ["Git", "Linux", "Ubuntu", "Eclipse", "FileZilla", "CodeIgniter", "Make"],
+      items: ["PyTorch", "ROS2", "eBPF", "Git", "Linux", "Ubuntu", "Eclipse", "FileZilla", "CodeIgniter", "Make"],
     },
     {
       id: "methodes",
