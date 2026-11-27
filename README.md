@@ -26,8 +26,8 @@ Plus de détails sur mon [portfolio](https://youssefmadaneportfolio.netlify.app/
 ## Compétences
 
 - **IA :** Deep Learning (CNN, Transformers), apprentissage par renforcement, modélisation probabiliste, RAG
-- **Vision :** vision par ordinateur, extraction de caractéristiques, capteurs
-- **Robotique :** planification de trajectoires, cinématique, commande, temps réel
+- **Vision :** vision par ordinateur, réalité augmentée, réalité virtuelle
+- **Robotique :** planification de trajectoires, commande, temps réel
 - **Langages :** C/C++, Python, PyTorch, ROS2, Java, JavaScript, eBPF, Assembleur, Visual Basic, Prolog
 - **Bases de données :** MySQL, MariaDB, MongoDB
 - **Outils :** Git, Linux, Ubuntu, Eclipse, FileZilla, CodeIgniter, Make

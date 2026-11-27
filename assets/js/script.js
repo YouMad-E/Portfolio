@@ -110,8 +110,8 @@ const PROFILE = {
       color: "#3b73e8",
       name: { fr: "Vision", en: "Vision" },
       items: {
-        fr: ["Vision par ordinateur", "Extraction de caractéristiques", "Capteurs"],
-        en: ["Computer vision", "Feature extraction", "Sensors"],
+        fr: ["Vision par ordinateur", "Réalité augmentée", "Réalité virtuelle"],
+        en: ["Computer vision", "Augmented reality", "Virtual reality"],
       },
     },
     {
@@ -119,8 +119,8 @@ const PROFILE = {
       color: "#d9531e",
       name: { fr: "Robotique", en: "Robotics" },
       items: {
-        fr: ["Planification de trajectoires", "Cinématique", "Commande", "Temps réel"],
-        en: ["Motion planning", "Kinematics", "Control", "Real-time systems"],
+        fr: ["Planification de trajectoires", "Commande", "Temps réel"],
+        en: ["Motion planning", "Control", "Real-time systems"],
       },
     },
     {
